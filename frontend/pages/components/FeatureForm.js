@@ -125,13 +125,11 @@ export default class FeatureForm extends PureComponent {
                 <Paper className={styles.paper}>
                     <Typography variant="h4">{title}</Typography>
                     <Grid
-                        alignItems="center"
                         alignContent="center"
                         justifyContent="flex-start"
                         container
                         spacing={1}
                     >
-
                         {includeId ? this.renderTextInput('Id', 12, 'number') : ''}
                         {this.renderTextInput('Display name', 6)}
                         {this.renderTextInput('Technical name', 6)}
