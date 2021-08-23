@@ -1,6 +1,6 @@
-### Feature toggles
+# Feature toggles
 
-#### Setup
+## Setup
 
 1. Copy `.env.example` to `.env`
 2. Start database by `docker-compose up -d`
@@ -20,7 +20,7 @@ yarn dev
 
 5. Access frontend in `localhost:3000`
 
-##### Available pages
+## Available pages
 
 URL: `localhost:3000`
 
@@ -30,7 +30,7 @@ URL: `localhost:3000`
 
 * `/feature/customer` - allow customer use feature
 
-##### REST
+## REST
 
 URL: `localhost:8080`
 
