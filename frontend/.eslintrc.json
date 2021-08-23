@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base",
+        "plugin:react/recommended",
+        "next",
+        "next/core-web-vitals"
+    ],
+    "rules": {
+        "indent": [1, 4],
+        "template-curly-spacing": [1, "always"],
+        "class-methods-use-this": [0]
+    }
+}

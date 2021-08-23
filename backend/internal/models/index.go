@@ -26,6 +26,6 @@ func CreateConnection() {
 	}
 
 	// db.AutoMigrate(&Customer{})
-	db.AutoMigrate(&FeatureToggle{})
-	// db.AutoMigrate(&FeatureCustomer{})
+	db.AutoMigrate(&Feature{})
+	db.AutoMigrate(&FeatureCustomer{})
 }
